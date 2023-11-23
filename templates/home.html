@@ -9,11 +9,9 @@
   <style>
       @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 h1,p,h2{
-  /* font-size:40px; */
+  /* font-weight:bold; */
   font-family: 'Roboto', sans-serif;
-    /* font-weight: normal; */
-    /* color:rgb(80,80,80); */
-    /* text-align: center; */
+
   } 
     #banner{
       height:350px;
@@ -24,12 +22,14 @@ h1,p,h2{
   </style>
 </head>
 <body>
+{% include 'nav.html' %}
+  
  <div class="container">
    <h1 class="text-center mt-2 mb-4">{{company_name}} Career</h1>
   <img class="img-fluid" id="banner" src="https://career-website--aditikumar2224.repl.co/static/banner.jpg"  alt="Banner" >
   <h2 class="text-center mt-2 mb-4">About Jarvis</h2>
   <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id mi et orci condimentum sagittis. Suspendisse aliquam scelerisque nisi, non rutrum elit euismod nec. Quisque gravida leo sit amet consequat aliquet. Integer in nibh tempus, varius massa sit amet, interdum est. Mauris imperdiet placerat purus accumsan sollicitudin. Duis quis tincidunt magna, in imperdiet orci. Mauris volutpat sem quis aliquam commodo. Etiam laoreet feugiat nibh ac luctus. phasellus tristique ultrices ex eu cursus.</p>
-  <h2 class="text-center">OOpen positions</h2>
+  <h2 class="text-center">Open positions</h2>
   <div >
   {% for job in Jobs %}
     
@@ -40,8 +40,8 @@ h1,p,h2{
   </div>
    <div style ="text-align:center;">
 <button class="text-center btn btn-primary btn-lg">Contact Us</button>
-     <p class="foot mt-4">Copyright 2023, Jarvis</p>
    </div>
  </div>
+  {% include 'footer.html' %}
 </body>
 </html>
