@@ -13,23 +13,40 @@ h1,p,h2{
   font-family: 'Roboto', sans-serif;
 
   } 
-    #banner{
-      height:350px;
-      width:100%;
+    #ppl{
+       border-left: 0.1px solid rgb(150,150,150);
+      border-radius: 4px;
+      
     }
-    .foot{  font-weight: normal;
-         color:rgb(65,65,65);}
+    #banner{
+      height:580px;
+      width:100%;
+      object-fit: cover;
+      margin-bottom: 16px;
+    }
   </style>
 </head>
 <body>
 {% include 'nav.html' %}
+
+
+  <img class="img-fluid" id="banner" src="https://career-website--aditikumar2224.repl.co/static/banner.jpg"  alt="Banner" >
   
  <div class="container">
    <h1 class="text-center mt-2 mb-4">{{company_name}} Career</h1>
-  <img class="img-fluid" id="banner" src="https://career-website--aditikumar2224.repl.co/static/banner.jpg"  alt="Banner" >
-  <h2 class="text-center mt-2 mb-4">About Jarvis</h2>
+  <!-- <h2 class="text-center mt-2 mb-4">About Jarvis</h2> -->
+   <div class="row " style="margin-bottom: 16px;">
+     <div class="col-md-6">
   <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id mi et orci condimentum sagittis. Suspendisse aliquam scelerisque nisi, non rutrum elit euismod nec. Quisque gravida leo sit amet consequat aliquet. Integer in nibh tempus, varius massa sit amet, interdum est. Mauris imperdiet placerat purus accumsan sollicitudin. Duis quis tincidunt magna, in imperdiet orci. Mauris volutpat sem quis aliquam commodo. Etiam laoreet feugiat nibh ac luctus. phasellus tristique ultrices ex eu cursus.</p>
-  <h2 class="text-center">Open positions</h2>
+     </div>
+     <div class="d-none d-md-block col-6">
+<img src="/static/people.jpg" id="ppl" style="height:320px;" alt="people">
+     
+   </div>
+   </div>
+   
+  <h2 class="text-center ">Open positions</h2>
+  
   <div >
   {% for job in Jobs %}
     
@@ -39,7 +56,7 @@ h1,p,h2{
 
   </div>
    <div style ="text-align:center;">
-<button class="text-center btn btn-primary btn-lg">Contact Us</button>
+<a href="mailto:hello@jarvis.ai?subject=Questions%20about%20Job%20Openings" type="button" class="text-center btn btn-primary btn-lg">Contact Us</a>
    </div>
  </div>
   {% include 'footer.html' %}
