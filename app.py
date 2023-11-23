@@ -29,7 +29,7 @@ JOBS=[
 {
   'id':5,
   'title':"Frontend Engineer",
-  'location':'San Francisco',
+  'location':'Fan Francisco',
 },
 {
   'id':6,
