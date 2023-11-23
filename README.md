@@ -1,20 +1,18 @@
-    <h1 align="center">Jarvis Career</h1>
+##
+<h1 align="center">Jarvis Career</h1>
 
-    <p>Jarvis Career is a web application that helps users explore job opportunities, connect with potential employers, and streamline the job application process. The project is divided into several steps, covering everything from project setup to deploying a production-ready database-driven web application.</p>
+<p>Jarvis Career is a web application that helps users explore job opportunities, connect with potential employers, and streamline the job application process. The project is divided into several steps, covering everything from project setup to deploying a production-ready database-driven web application.</p>
 
-    <h2>Table of Contents</h2>
+## Table of Contents
     <ul>
-        <li><a href="#technologies-used">Technologies Used</a></li>
-        <li><a href="#requirements">Requirements</a></li>
-        <li><a href="#installation">Installation</a></li>
-        <li><a href="#usage">Usage</a></li>
-        <li><a href="#documentation">Documentation</a></li>
-        <li><a href="#support">Support</a></li>
-        <li><a href="#project-status">Project Status</a></li>
-        <li><a href="#contribution-guidelines">Contribution Guidelines</a></li>
+        <li>Technologies Used</li>
+        <li>Requirements</li>
+        <li>Installation</li>
+        <li>Usage</li>
+        <li>Contribution Guidelines</li>
     </ul>
 
-    <h2>Technologies Used 🛠️</h2>
+## Technologies Used 🛠️
     <ul>
         <li>Python</li>
         <li>Flask</li>
@@ -23,7 +21,7 @@
         <li>Render.com</li>
     </ul>
 
-<h2> Preview ⚡️</h2>
+## Preview ⚡️
 <p align="center">
   
 <img src="![image](https://github.com/Aditi020/Career-Website/assets/92170627/4c5d9447-a105-431c-8804-f484b6b35234)
@@ -33,8 +31,8 @@
 
 ## Website 💻
 [https://aditi020.github.io/Wanderlust](https://jarvis-career-website.onrender.com/)
-
-    <h2>Requirements</h2>
+<br>
+## Requirements
     <ul>
         <li>Python 3.x</li>
         <li>Flask</li>
@@ -42,7 +40,7 @@
         <li>Render.com account (for deployment)</li>
     </ul>
 
-    <h2>Installation 🖥️</h2>
+## Installation 🖥️
     <ol>
         <li>Clone the GitHub repository:</li>
         <code>git clone &lt;repository-url&gt;</code>
@@ -50,14 +48,14 @@
         <code>pip install -r requirements.txt</code>
     </ol>
 
-    <h2>Usage 📋</h2>
+## Usage 📋
     <ol>
         <li>Run the Flask development server:</li>
         <code>python app.py</code>
         <li>Access the application in your web browser at <a href="http://localhost:5000">http://localhost:5000</a>.</li>
     </ol>
 
-    <h2>Contribution Guidelines💡</h2>
+## Contribution Guidelines💡
     <ol>
         <li>Fork the repository.</li>
         <li>Create a new branch.</li>
