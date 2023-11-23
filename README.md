@@ -24,8 +24,7 @@
 ## Preview ⚡️
 <p align="center">
   
-<img src="![image](https://github.com/Aditi020/Career-Website/assets/92170627/4c5d9447-a105-431c-8804-f484b6b35234)
-" alt="Screenshot1">
+<img src="static/Screenshot.png" alt="Screenshot">
 </p>
 
 
